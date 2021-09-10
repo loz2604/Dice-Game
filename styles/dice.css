@@ -1,0 +1,185 @@
+body{
+    /* border:solid black 1px; */
+    background: linear-gradient(#e97b7b, #a6abe6);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    height:100vh;
+    letter-spacing:2px;
+  
+    /* background-color:aquamarine; */
+    /* background: linear-gradient(60deg,rgb(212, 152, 212)15%, rgb(252, 204, 252)100%, rgb(228, 155, 228)15%); */
+}
+
+.heading{
+    /* border:solid black 1px; */
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:5px;
+}
+p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ .game{
+    /* border:solid black 1px; */
+  
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+ }
+
+ .button{
+    width:100px;
+ }
+
+ #roll{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:3px;
+    font-size:larger;
+    padding:10px;
+    cursor: pointer;
+    border-radius:1em;
+    width:100%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+ }
+
+ #gameOver{
+    display:none;
+    font-size: xx-large;
+    margin-top:70px;
+}
+
+#youWin{
+    display:none;
+    font-size: xx-large;
+    margin-top:70px;
+}
+
+ .dice{
+    border:solid black 1px;
+    background-color: rgb(233, 231, 231);
+    width:150px;
+    height:150px;
+    padding:20px;
+    border-radius:1em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    color: rgb(233, 231, 231);
+ }
+ #roll{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:3px;
+    font-size:larger;
+    padding:10px;
+    cursor: pointer;
+    border-radius:1em;
+    width:100%;
+    margin-top: 95px;
+    margin-bottom: 30px;
+ }
+ #pressRoll{
+     width:85%;
+     border:2px solid black;
+     border-radius:2em;
+     padding:5px;
+ }
+ #dice1{
+     display: none;
+     width:95%;
+ }
+ #dice2{
+    display: none;
+    width:95%;
+}
+#dice3{
+    display: none;
+    width:95%;
+}
+#dice4{
+    display: none;
+    width:95%;
+}
+#dice5{
+    display: none;
+    width:95%;
+}
+#dice6{
+    display: none;
+    width:95%;
+}
+#rules{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:3px;
+    font-size:larger;
+    padding:10px;
+    cursor: pointer;
+    border-radius:1em;
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#restart{
+    display:none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:3px;
+    font-size:larger;
+    padding:10px;
+    cursor: pointer;
+    border-radius:1em;
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+.info{
+    border:solid black 1px;
+    background-color: rgb(233, 231, 231);
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    border-radius:1em;
+    margin:10px;
+}
+    
+#rulesText{
+    display:none;
+    width:fit-content;
+    align-self:center;
+    font-size: x-large;
+}
+
+#player{
+    width:fit-content;
+    align-self:center;
+    font-size: x-large;
+}
+#tryAgain{
+    display:none;
+    width:fit-content;
+    align-self:center;
+    font-size: x-large;
+}
+
+.scorecard{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+}
+#score{
+    font-size: x-large;
+    width:100%;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+#scoreContainer{
+    width:fit-content;
+    font-size: x-large;
+    padding-left:10px;
+    padding-right: 10px;
+    align-self: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
