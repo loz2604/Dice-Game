@@ -1,6 +1,6 @@
 body{
     /* border:solid black 1px; */
-    background: linear-gradient(#e97b7b, #a6abe6);
+    background: linear-gradient(#a6abe6, #e97b7b, #a6abe6);
     display:flex;
     flex-direction: column;
     align-items:center;
@@ -31,18 +31,7 @@ p{
 
  .button{
     width:100px;
- }
 
- #roll{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing:3px;
-    font-size:larger;
-    padding:10px;
-    cursor: pointer;
-    border-radius:1em;
-    width:100%;
-    margin-top: 80px;
-    margin-bottom: 30px;
  }
 
  #gameOver{
@@ -80,9 +69,19 @@ p{
     cursor: pointer;
     border-radius:1em;
     width:100%;
-    margin-top: 95px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-image:linear-gradient(rgb(171, 235, 231), rgb(87, 214, 201), rgb(171, 235, 231));
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
  }
+ #roll:hover{
+    opacity: 85%;
+ }
+ #roll:active{
+     /* color:whitesmoke; */
+    background-image:linear-gradient(rgb(87, 214, 201),rgb(171, 235, 231), rgb(87, 214, 201));
+ }
+
  #pressRoll{
      width:85%;
      border:2px solid black;
@@ -121,8 +120,17 @@ p{
     cursor: pointer;
     border-radius:1em;
     width:100%;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-image:linear-gradient(rgb(171, 235, 231), rgb(87, 214, 201), rgb(171, 235, 231));
+}
+#rules:hover{
+    opacity: 85%;
+ }
+#rules:active{
+    /* color:whitesmoke; */
+    background-image:linear-gradient(rgb(87, 214, 201),rgb(171, 235, 231), rgb(87, 214, 201));
 }
 #restart{
     display:none;
@@ -135,7 +143,15 @@ p{
     width:100%;
     margin-top: 30px;
     margin-bottom: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-image:linear-gradient(rgb(171, 235, 231), rgb(87, 214, 201), rgb(171, 235, 231));
  }
+ #restart:hover{
+    opacity: 85%;
+ }
+ #restart:active{
+    background-image:linear-gradient(rgb(87, 214, 201),rgb(171, 235, 231), rgb(87, 214, 201));
+}
 .info{
     border:solid black 1px;
     background-color: rgb(233, 231, 231);
@@ -189,5 +205,49 @@ p{
 }
 
 @media all and (max-width:800px){
-   
+   #gameOver{
+       font-size: x-large;
+   }
+   #youWin{
+    font-size: 23px;
+   }
+   #rulesText{
+    font-size: large;
+   }
+   #tryAgain{
+       font-size:large;
+   }
+   #scoreContainer{
+    font-size:large;
+   }
+   #score{
+    font-size:large;
+   }
+   #player{
+    font-size:large;
+   }
+}
+
+@media all and (max-width:530px){
+    #gameOver{
+        font-size: larger;
+    }
+    #youWin{
+     font-size: 20px;
+    }
+    #rulesText{
+     font-size: medium;
+    }
+    #tryAgain{
+        font-size:large;
+    }
+    #scoreContainer{
+     font-size:large;
+    }
+    #score{
+     font-size:large;
+    }
+    #player{
+     font-size:large;
+    }
 }
